@@ -1,0 +1,29 @@
+name: hardware
+description: Aplikasi USB/OTG Reader dengan Fingerprint Auth
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Authentication
+  local_auth: ^2.3.0
+  
+  # Permissions
+  permission_handler: ^11.4.0
+  
+  # File & Storage
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
